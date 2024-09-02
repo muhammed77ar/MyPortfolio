@@ -25,7 +25,7 @@ const About = () => {
                     applications
                 </p>
                 <Tilt
-                    className="xs:px-0 px-3 flex flex-col justify-center items-center rounded-xl w-[300px] transform-style-preserve-3d"
+                    className="xs:px-0 px-3 sm:pt-0 pt-4 flex flex-col justify-center items-center rounded-xl w-[300px] transform-style-preserve-3d"
                     perspective={500}
                     glareEnable={true}
                     glareMaxOpacity={0.10}
