@@ -14,7 +14,7 @@ const Works = () =>  {
         <h2 className={`${styles.sectionHeadText} xs:text-start text-center`}>Some Of My Projects</h2>
     </motion.div>
     <div className=" w-full flex">
-      <motion.p variants={fadeIn("", "", 0.1, 1)}
+      <motion.p variants={fadeIn("right", "", 0.1, 1)}
       className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
         Here are some standout projects that exemplify my skills and experience. Each project includes a concise description along with links to code repositories and live demos. These examples highlight my ability to tackle complex problems, seamlessly work with various technologies, and efficiently manage projects from start to finish.
       </motion.p>
