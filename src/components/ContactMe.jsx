@@ -59,7 +59,7 @@ const ContactMe = () => {
   return (
     <div className=" xl:mt-12 flex justify-center overflow-hidden">
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)}
-        className=" w-[60%] bg-[url('/src/assets/abstract-metalic-blue-and-pink-waves-on-black-background-4.png')] bg-cover p-8 rounded-2xl">
+        className=" sm:w-[60%] w-full bg-[url('/src/assets/abstract-metalic-blue-and-pink-waves-on-black-background-4.png')] bg-cover p-8 rounded-2xl">
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}>Contact</h3>
         <form ref={formRef} onSubmit={handelSubmit} className="mt-12 flex flex-col gap-8">
