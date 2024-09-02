@@ -22,7 +22,6 @@ module.exports = {
         "hero-pattern": "url('src/assets/photo-1714779573250-36242918e044.jpeg')",
         "hero-pattern-mobile": "url('/src/assets/HeroImage.jpg')",
         "bg-pattern" : "url('/src/assets/vecteezy_abstract-shiny-dark-blue-fog-flow-smoke-luxury-fluid_4668332.jpg')",
-        "bg-contact" : "url('/src/assets/abstract-black-3d-background-1.png')"
         
       },
       transform: {

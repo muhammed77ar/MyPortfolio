@@ -57,9 +57,9 @@ const ContactMe = () => {
     })
   }
   return (
-    <div className=" xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className=" xl:mt-12 flex justify-center overflow-hidden">
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)}
-        className="flex-[0.75] bg-[url('/src/assets/abstract-metalic-blue-and-pink-waves-on-black-background-4.png')] bg-cover p-8 rounded-2xl">
+        className=" w-[60%] bg-[url('/src/assets/abstract-metalic-blue-and-pink-waves-on-black-background-4.png')] bg-cover p-8 rounded-2xl">
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}>Contact</h3>
         <form ref={formRef} onSubmit={handelSubmit} className="mt-12 flex flex-col gap-8">
@@ -85,13 +85,6 @@ const ContactMe = () => {
             </button>
           </div>
         </form>
-      </motion.div>
-      <motion.div variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 sm:w-[50%] sm:h-[500px] hidden md:block">
-        <div className="flex sm:flex-col flex-row justify-center items-center transform -translate-y-[50px]">
-            <img src="/src/assets/3d-abstract-blue-glossy-liquid.png" alt="" />
-            <img src="/src/assets/3d-abstract-blue-glossy-liquid-9.png" className=" transform -translate-y-[280px]" alt="" />
-        </div>
       </motion.div>
     </div>
   )
