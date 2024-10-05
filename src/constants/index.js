@@ -1,6 +1,5 @@
 import {
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -11,7 +10,6 @@ import {
     git,
     figma,
     docker,
-    threejs,
     Ui,
     fullStack,
     back_end,
@@ -44,7 +42,8 @@ import {
     {
       id : "projects",
       title : "Projects"
-    }
+    },
+
   ];
   
   const services = [
@@ -80,10 +79,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -106,10 +101,6 @@ import {
   ];
 
   const technologies2 = [
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
     {
       name: "git",
       icon: git,
