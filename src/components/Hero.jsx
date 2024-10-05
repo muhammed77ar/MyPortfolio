@@ -28,26 +28,18 @@ export default function Hero() {
           <p className={`$text-[#dfd9ff] text-center font-medium lg:text-[20px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] w-[50%]`}>
             I'm a Full-Stack Developer design and create websites and applications for various platforms
           </p>
-          <a href="#about">
-            <button className=" mt-6 cursor-pointer font-semibold overflow-hidden relative z-100 rounded-md border-2 border-violet-500 group px-8 py-2">
-              <span className=" flex items-center gap-2 relative z-10 text-violet-400 group-hover:text-white text-xl duration-500">Read More About Me <svg
-                className="w-5 h-5"
-                stroke="currentColor"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
-                ></path>
-              </svg></span>
-
-              <span className="absolute w-full h-full bg-violet-500 -left-44 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>
-              <span className="absolute w-full h-full bg-violet-500 -right-44 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500"></span>
-
+          <a href="../MohamedBchir_Resume.pdf"
+           download="MohamedBchir_Resume.pdf"
+           className=" mt-6">
+            <button className="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-purple-900 py-1 pl-6 pr-14 font-medium text-neutral-50">
+              <span className="z-10 pr-2">Download Resume</span>
+              <div className="absolute right-1 inline-flex h-12 w-12 items-center justify-end rounded-full bg-gradient-to-r from-violet-400 to-purple-300 transition-[width] group-hover:w-[calc(100%-8px)]">
+                <div className="mr-3.5 flex items-center justify-center"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-neutral-50">
+                  <path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+                  </path>
+                </svg>
+                </div>
+              </div>
             </button>
           </a>
         </motion.div>
