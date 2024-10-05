@@ -1,11 +1,14 @@
 import { BrowserRouter} from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
-import About from "./pages/About"
-import Experience from "./components/Experience"
-import Tech from "./components/Tech"
-import Works from "./components/Works"
-import ContactMe from "./components/ContactMe"
+import { lazy } from "react";
+
+// Lazy load components
+const About = lazy(() => import('./pages/About'));
+const Experience = lazy(() => import('./components/Experience'));
+const Tech = lazy(() => import('./components/Tech'));
+const Works = lazy(() => import('./components/Works'));
+const ContactMe = lazy(() => import('./components/ContactMe'));
 
 
 function App() {
@@ -17,11 +20,11 @@ function App() {
           <Navbar />
           <Hero />
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <ContactMe />
+          <About />
+          <Experience />
+          <Tech />
+          <Works />
+          <ContactMe />
         <div>
         </div>
       </div>
