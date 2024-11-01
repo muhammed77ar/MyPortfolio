@@ -76,6 +76,7 @@ export default function Navbar() {
           <motion.div variants={hideNavItemsVariant} >
             <a
               href="https://github.com/muhammed77ar"
+               target="_blank"
               className="text-gray-500 hover:text-gray-900 cursor-pointer dark:hover:text-white dark:text-gray-400"
             >
               <svg
