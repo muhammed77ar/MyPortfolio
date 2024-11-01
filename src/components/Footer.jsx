@@ -20,6 +20,7 @@ export default function Footer() {
                     <a
                         className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
                         href="https://www.instagram.com/_muhammad_.ar/"
+                        target="_blank"
                     >
                         <svg
                             aria-hidden="true"
@@ -39,6 +40,7 @@ export default function Footer() {
                     <a
                         className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
                         href="https://github.com/muhammed77ar"
+                        target="_blank"
                     >
                         <svg
                             aria-hidden="true"

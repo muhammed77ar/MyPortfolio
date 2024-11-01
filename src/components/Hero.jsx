@@ -13,8 +13,8 @@ export default function Hero() {
     }
   }, [isInView])
   return (
-    <section className=" relative w-full h-screen flex justify-center items-center mx-auto bg-gradient-to-t from-black to-transparent">
-      <div ref={ref} className={` relative w-fit flex flex-row items-center justify-center overflow-hidden gap-5`}>
+    <section className="w-full h-screen flex justify-center items-center mx-auto bg-gradient-to-t from-black to-transparent">
+      <div ref={ref} className={`w-fit flex flex-row items-center justify-center overflow-hidden gap-5`}>
         <motion.div
           variants={{
             hidden: { opacity: 0, y: -75 },
@@ -29,8 +29,8 @@ export default function Hero() {
             I'm a Full-Stack Developer design and create websites and applications for various platforms
           </p>
           <a href="../MohamedBchir_Resume.pdf"
-           download="MohamedBchir_Resume.pdf"
-           className=" mt-6">
+            download="MohamedBchir_Resume.pdf"
+            className=" mt-6">
             <button className="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-purple-900 py-1 pl-6 pr-14 font-medium text-neutral-50">
               <span className="z-10 pr-2">Download Resume</span>
               <div className="absolute right-1 inline-flex h-12 w-12 items-center justify-end rounded-full bg-gradient-to-r from-violet-400 to-purple-300 transition-[width] group-hover:w-[calc(100%-8px)]">
