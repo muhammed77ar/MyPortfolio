@@ -13,7 +13,7 @@ export default function Hero() {
     }
   }, [isInView])
   return (
-    <section className="w-full relative h-screen flex justify-center items-center mx-auto bg-gradient-to-t from-black to-transparent">
+    <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="w-full relative h-screen flex justify-center items-center mx-auto bg-gradient-to-t from-black to-transparent">
       <div ref={ref} className={`w-fit flex flex-row items-center justify-center overflow-hidden gap-5`}>
         <motion.div
           variants={{
@@ -62,6 +62,6 @@ export default function Hero() {
           </div>
         </a>
       </div>
-    </section>
+    </motion.section>
   )
 }
