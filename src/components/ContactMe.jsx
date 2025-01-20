@@ -26,7 +26,8 @@ const ContactMe = () => {
         to_name : "Mohamed",
         from_email : Form.email,
         to_email : "mohamedbchir70@gmail.com",
-        message : Form.message
+        message : Form.message,
+        reply_to: Form.email 
       },
       "DIYx7B0ZgIgsqvP4b"
     ).then(() => {
@@ -40,7 +41,7 @@ const ContactMe = () => {
       });
       setForm({
         name : "",
-        email :  "",
+        email : "",
         message : ""
       }, (error) => {
         setloading(false)
