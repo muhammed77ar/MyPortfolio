@@ -19,7 +19,9 @@ import {
     pngegg2,
     quickBricoleHeroImage,
     fashionStoreImage,
-    MovieWebImage
+    MovieWebImage,
+    project3,
+    project4,
   } from "../assets";
   
   export const navLinks = [
@@ -161,6 +163,52 @@ import {
   
   const projects = [
     {
+      name: "Wander Morocco",
+      description:
+      "WanderMorocco is a platform where you can explore destinations, share travel stories, and get tips from other travelers about the best places in Morocco.",
+      tags: [
+        {
+          name: "react",
+          color: "text-blue-500",
+        },
+        {
+          name: "laravel",
+          color: "text-red-500",
+        },
+        {
+          name: "tailwindcss",
+          color: "text-blue-500",
+        },
+      ],
+      image: project3,
+      source_code_link: "https://github.com/muhammed77ar/WanderMorocco-Blog",
+      hasDemo: true,
+      demoLink: "https://www.linkedin.com/posts/mohamed-bchir-a50a1b313_react-laravel-vite-activity-7240656345559924736-0WnR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-1CRwB0TIXYtSZcpjXbT-rvhNJTC4maLc",
+    },
+    {
+      name: "Thoughts",
+      description:
+      "An e-commerce platform where you can browse, purchase, and review books across various genres, offering a seamless shopping experience for book lovers.",
+      tags: [
+        {
+          name: "react",
+          color: "text-blue-500",
+        },
+        {
+          name: "laravel",
+          color: "text-red-500",
+        },
+        {
+          name: "tailwindcss",
+          color: "text-blue-500",
+        },
+      ],
+      image: project4,
+      source_code_link: "https://github.com/muhammed77ar/BooksStore",
+      hasDemo: true,
+      demoLink: "https://www.linkedin.com/posts/mohamed-bchir-a50a1b313_fullstackdeveloper-react-laravel-activity-7277616181174296577-JExQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-1CRwB0TIXYtSZcpjXbT-rvhNJTC4maLc",
+    },
+    {
       name: "Quick Bricole",
       description:
       "The platform where you can search for professionals such as carpenters, mechanics, electricians and other service providers. ",
@@ -180,6 +228,7 @@ import {
       ],
       image: quickBricoleHeroImage,
       source_code_link: "https://github.com/muhammed77ar/QuickBricole_Project",
+      hasDemo: false,
     },
     {
       name: "Fashion Store",
@@ -201,6 +250,7 @@ import {
       ],
       image: fashionStoreImage,
       source_code_link: "https://github.com/muhammed77ar/E-COMMERCE-WEBSITE",
+      hasDemo: false,
     },
     {
       name: "Movie Web App",
@@ -222,6 +272,8 @@ import {
       ],
       image: MovieWebImage,
       source_code_link: "https://github.com/muhammed77ar/movie-app",
+      hasDemo: true,
+      demoLink: "https://movie-night1.pages.dev/",
     },
   ];
   

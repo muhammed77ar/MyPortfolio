@@ -25,7 +25,6 @@ import tailwind from "./tech/tailwind.png";
 
 
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import fullstack2 from "./fullstack2.png";
 import pngegg2 from "./pngegg2.png";
 import frontend from "./frontend.png";
@@ -35,7 +34,9 @@ import MovieWebImage from "./MovieWebImage.png";
 
 import phpIcon from "./phpIcon.png";
 import laravel from "./laravel.png";
-import database from "./database.png"
+import database from "./database.png";
+import project4 from "./project4.png";
+import project3 from "./project3.png"
 
 export {
   fullstack2,
@@ -58,7 +59,6 @@ export {
   redux,
   tailwind,
   jobit,
-  tripguide,
   Ui,
   fullStack,
   back_end,
@@ -69,5 +69,7 @@ export {
   MovieWebImage,
   phpIcon,
   laravel,
-  database
+  database,
+  project4,
+  project3
 };
