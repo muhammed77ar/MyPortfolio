@@ -62,7 +62,7 @@ const Works = () => {
           {projects.map((project, index) => (
             <SwiperSlide 
               key={index} 
-              className="w-[300px] h-auto flex justify-center items-center overflow-hidden my-3 ml-2 sm:mx-0"
+              className="w-[300px] h-auto flex justify-center items-center overflow-hidden my-3 sm:mx-0"
             >
               <ProjectCard project={project} index={index} />
             </SwiperSlide>
