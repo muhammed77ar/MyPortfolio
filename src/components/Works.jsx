@@ -33,11 +33,11 @@ const Works = () => {
           effect={'coverflow'}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={3}
+          slidesPerView={1} // Default to 1 slide (mobile)
+          spaceBetween={30}
           loop={true}
-          spaceBetween={30} 
           coverflowEffect={{
-            rotate: 30, 
+            rotate: 0,
             stretch: 0,
             depth: 50,
             modifier: 1,
@@ -45,11 +45,24 @@ const Works = () => {
           }}
           modules={[EffectCoverflow, Pagination]}
           className="w-full min-h-[500px] overflow-visible"
+          breakpoints={{
+            // When window width is >= 768px, show 3 slides
+            768: {
+              slidesPerView: 3,
+              coverflowEffect: {
+                rotate: 40, // Rotate 40 degrees on larger screens
+                stretch: 0,
+                depth: 50,
+                modifier: 1,
+                slideShadows: true,
+              },
+            },
+          }}
         >
           {projects.map((project, index) => (
             <SwiperSlide 
               key={index} 
-              className="w-[300px] h-auto flex justify-center items-center overflow-hidden  my-2"
+              className="w-[300px] h-auto flex justify-center items-center overflow-hidden my-3 ml-2 sm:mx-0"
             >
               <ProjectCard project={project} index={index} />
             </SwiperSlide>
