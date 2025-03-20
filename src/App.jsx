@@ -10,6 +10,7 @@ const Tech = lazy(() => import('./components/Tech'));
 const Works = lazy(() => import('./components/Works'));
 const ContactMe = lazy(() => import('./components/ContactMe'));
 const Footer = lazy(() => import('./components/Footer'));
+import './i18n';
 
 
 function App() {

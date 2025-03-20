@@ -119,6 +119,7 @@ import {
   
   const experiences = [
     {
+      id: "frontend_dev",
       title: "Front-end Developer",
       icon: frontend,
       iconBg: "#383E56",
@@ -132,6 +133,7 @@ import {
       ],
     },
     {
+      id: "backend_dev",
       title: "Back-end Developer",
       icon: pngegg2,
       iconBg: "#E6DEDD",
@@ -145,6 +147,7 @@ import {
       ],
     },
     {
+      id: "fullstack_dev",
       title: "Full stack Developer",
       icon: fullstack2,
       iconBg: "#E6DEDD",

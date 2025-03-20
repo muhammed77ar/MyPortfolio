@@ -1,13 +1,15 @@
 import {SectionWrapper} from "../hoc"
 import { css, database, docker, figma, git, html, javascript, laravel, mongodb, phpIcon, reactjs, redux, tailwind } from "../assets"
-import { motion } from "framer-motion"
-import { fadeIn } from "../utils/motion"
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
+import { useTranslation } from 'react-i18next';
 
 const Tech = () => {
+  const { t } = useTranslation();
   return (
     <motion.div variants={fadeIn("right", "", 0.2, 1)} className="flex items-center justify-center w-[100%] sm:overflow-visible overflow-hidden">
     <div className="relative sm:w-96 sm:h-96 w-full h-[350px]">
-        <div className="w-full text-center absolute top-[40%] sm:top-[40%] text-[40px] sm:text-[50px] font-bold bg-gradient-to-t from-gray-900 to-white inline-block text-transparent bg-clip-text">Technologies</div>
+        <div className="w-full text-center absolute top-[40%] sm:top-[40%] text-[40px] sm:text-[50px] font-bold bg-gradient-to-t from-gray-900 to-white inline-block text-transparent bg-clip-text">{t('tech.title')}</div>
         <div className="orbit orbit-outer">
             <img src={git} alt="Git" className="icon git" />
             <img src={html} alt="htm" className="icon html" />
