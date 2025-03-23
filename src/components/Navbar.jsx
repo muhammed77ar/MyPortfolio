@@ -84,7 +84,7 @@ export default function Navbar() {
           <motion.h variants={hideNavItemsVariant} className="capitalize text-xl font-bold">
             <Link to="/" className="flex items-center gap-2" onClick={() => window.scrollTo(0, 0)}>
               <img src={logo} alt={t('navbar.logoAlt')} className="w-14 h-14 object-contain" />
-              <p className="text-white text-[18px] font-bold cursor-pointer">{t('navbar.name')}</p>
+              <p className="text-white text-[18px] font-bold cursor-pointer hidden sm:block">{t('navbar.name')}</p>
             </Link>
           </motion.h>
         </div>
